@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Share+Tech+Mono&display=swap');
+
+
+$colorDaftPunk:#ac1212;
+
+@media screen and (max-width:480px ){
+
+body {
+    height: 140vh;
+    margin: 0;
+    background-image: url('https://i.pinimg.com/originals/18/37/df/1837df18c481d89a0e8b971005d21661.jpg');
+    background-repeat: no-repeat;
+    background-size: 250vh;
+ button{
+     background-color: $colorDaftPunk;
+     border-radius: 13px;
+     font-size: 20px;
+     font-family: 'Share Tech Mono', monospace;
+    a {color: #fff;
+        text-decoration: none;} 
+     padding: 10px 20px 10px 20px;
+ }
+ footer {
+     border-top: red;
+     border-width: 20px;
+     background-color: #331b03 ;
+     color: $colorDaftPunk;
+ }
+ #pie {
+     width: 120px;
+     height: auto;
+     margin-top: 10px;
+     margin-bottom: 0px;
+ }
+    .letters{
+    
+    margin: 0px 15px 0px 15px;
+    color: #342d61;
+ 
+    .title {
+        font-family: 'Bungee Outline', cursive;
+        color:#fff;
+        font-size: 25px;
+        
+      }
+      .comment {
+          font-size: 20px;
+          margin-top: 0px;
+        font-family: 'Share Tech Mono', monospace;
+        color:#fff;
+      }
+}
+    .name {
+     align-items: center;
+     align-content: center;
+     text-align: center;
+    img {
+        height: auto;
+        width: 370px;
+    }
+  .end {
+    font-size: 18;
+    font-family: 'Bungee Outline', cursive;
+    color:#fff;
+    margin: 0px 15px 0px 15px;
+  }
+ }
+}
+
+
+.carousel {
+    margin-top: 0px;
+    width: 100vw;
+    height: 50vh;
+    
+    position: relative;
+    overflow: hidden;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: 375px 850px;
+    h3{
+     font-family: 'Share Tech Mono', monospace;
+     color:#fff;   
+    }
+    .track {
+        position: absolute;
+        top: 70px;
+        left: 35px;
+        display: inline-flex;
+        touch-action: none;
+    }
+    .card {
+        display: flex;
+        width: 300px;
+        height: 300px;
+        background: #fff;
+        border-radius: 3px;
+        margin-right: 20px;
+    }
+    #one, #two, #three, #four {
+        img {
+            height: auto;
+            width: auto;
+        }
+    }
+}
+
+.schedule {
+    font-family: 'Share Tech Mono', monospace;
+    background-color: black;
+    color: #fff;
+    border-radius: 13px;
+    margin: 15px 15px 15px 15px;
+    border-style: double;
+    
+
+    .dates {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+}
+
+@media screen and (min-width:400px ){
+    body {
+        height: 140vh;
+        margin: 0;
+        background-image: url('https://i.pinimg.com/originals/18/37/df/1837df18c481d89a0e8b971005d21661.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+     button{
+         margin-top: 20px;
+         background-color: $colorDaftPunk;
+         border-radius: 13px;
+         font-size: 35px;
+         font-family: 'Share Tech Mono', monospace;
+        a {color: #fff;
+            text-decoration: none;} 
+         padding: 10px 60px 10px 60px;
+     }
+     footer {
+         border-top: red;
+         border-width: 20px;
+         background-color: #331b03 ;
+         color: $colorDaftPunk;
+         font-size: 20px;
+     }
+     #pie {
+         width: 190px;
+         height: auto;
+         margin-top: 10px;
+         margin-bottom: 0px;
+     }
+        .letters{
+        
+        margin: 0px 15px 0px 15px;
+        color: #342d61;
+     
+        .title {
+            font-family: 'Bungee Outline', cursive;
+            color:#fff;
+            font-size: 50px;
+            
+          }
+          .comment {
+              font-size: 34px;
+              margin-top: 0px;
+            font-family: 'Share Tech Mono', monospace;
+            color:#fff;
+          }
+    }
+        .name {
+         align-items: center;
+         align-content: center;
+         text-align: center;
+        img {
+            height: auto;
+            width: 370px;
+        }
+      .end {
+        font-size: 50px;
+        font-family: 'Bungee Outline', cursive;
+        color:#fff;
+        margin: 0px 15px 0px 15px;
+      }
+     }
+    }
+    
+    
+    .carousel {
+        margin-top: 0px;
+        width: 100vw;
+        height: 70vh;
+        
+        position: relative;
+        overflow: hidden;
+        background-attachment:fixed;
+        background-repeat: no-repeat;
+        background-size: 375px 850px;
+        h3{
+         font-family: 'Share Tech Mono', monospace;
+         color:#fff;   
+         font-size: 28px;
+        }
+        .track {
+            position: absolute;
+            top: 100px;
+            left: 75px;
+            display: inline-flex;
+            touch-action: none;
+        }
+        .card {
+            display: flex;
+            width: 600px;
+            height: 600px;
+            background: #fff;
+            border-radius: 3px;
+            margin-right: 20px;
+        }
+        #one, #two, #three, #four {
+            img {
+                height: auto;
+                width: auto;
+            }
+        }
+    }
+    
+    .schedule {
+        font-family: 'Share Tech Mono', monospace;
+        background-color: black;
+        color: #fff;
+        border-radius: 13px;
+        margin: 30px 35px 35px 15px;
+        border-style: double;
+        font-size: 30px;
+        
+    
+        .dates {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            font-size: 25px;
+        }
+    }
+    }
+
+    @media screen and (min-width:800px ){
+        body {
+            height: 140vh;
+            margin: 0;
+            background-image: url('https://i.pinimg.com/originals/18/37/df/1837df18c481d89a0e8b971005d21661.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+         button{
+             margin-top: 20px;
+             background-color: $colorDaftPunk;
+             border-radius: 13px;
+             font-size: 35px;
+             font-family: 'Share Tech Mono', monospace;
+            a {color: #fff;
+                text-decoration: none;} 
+             padding: 10px 60px 10px 60px;
+         }
+         footer {
+             border-top: red;
+             border-width: 20px;
+             background-color: #331b03 ;
+             color: $colorDaftPunk;
+             font-size: 40px;
+         }
+         #pie {
+             width: 260px;
+             height: auto;
+             margin-top: 10px;
+             margin-bottom: 0px;
+         }
+            .letters{
+            
+            margin: 0px 15px 0px 15px;
+            color: #342d61;
+         
+            .title {
+                font-family: 'Bungee Outline', cursive;
+                color:#fff;
+                font-size: 70px;
+                
+              }
+              .comment {
+                  font-size: 30px;
+                  margin-top: 0px;
+                font-family: 'Share Tech Mono', monospace;
+                color:#fff;
+              }
+        }
+            .name {
+             align-items: center;
+             align-content: center;
+             text-align: center;
+            img {
+                height: auto;
+                width: 700px;
+            }
+          .end {
+            font-size: 70px;
+            font-family: 'Bungee Outline', cursive;
+            color:#fff;
+            margin: 0px 15px 0px 15px;
+          }
+         }
+        }
+        
+        
+        .carousel {
+            margin-top: 0px;
+            width: 100vw;
+            height: 65vh;
+            
+            position: relative;
+            overflow: hidden;
+            background-attachment:fixed;
+            background-repeat: no-repeat;
+            background-size: 375px 850px;
+            h3{
+             font-family: 'Share Tech Mono', monospace;
+             color:#fff;   
+             font-size: 35px;
+            }
+            .track {
+                position: absolute;
+                top: 100px;
+                left: 500px;
+                display: inline-flex;
+                touch-action: none;
+            }
+            .card {
+                display: flex;
+                width: 650px;
+                height: 650px;
+                background: #fff;
+                border-radius: 3px;
+                margin-right: 20px;
+            }
+            #one, #two, #three, #four {
+                img {
+                    height: auto;
+                    width: auto;
+                }
+            }
+        }
+        
+        .schedule {
+            font-family: 'Share Tech Mono', monospace;
+            background-color: black;
+            color: #fff;
+            border-radius: 13px;
+            margin: 30px 600px 35px 600px;
+            border-style: double;
+            font-size: 50px;
+            
+        
+            .dates {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                font-size: 40px;
+            }
+        }
+        }
